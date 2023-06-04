@@ -1,23 +1,26 @@
 import './header.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import calamardo from '../../assets/images/calamardo.png';
 
-function Header() {
+
+
+function header() {
   return (
-    <div className='cabecera'>
-      <div>  <img src={calamardo} alt="avatar" /></div>
-    
-         <nav className="navbar">
-     
-            <Button variant="outline-warning" className='botonenlace'>Inicio</Button>{' '}
-            <Button variant="outline-warning" className='botonenlace'>Proyectos</Button>{' '}
-            <Button variant="outline-warning" className='botonenlace'>Contacto</Button>{' '}
-
-      </nav>
+    <div id='abc'>
+      
+       <nav>
+       {/* <div>
+       <img src={calamardo} alt="avatar" /></div> */}
+        <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Airways</a></li>
+            <li><a href="#">Book Tickets</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
     </div>
   )
 }
 
-export default Header
+export default header
