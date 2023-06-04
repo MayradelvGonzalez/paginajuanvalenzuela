@@ -8,7 +8,7 @@
     height: 60vh;
     background-color: red;
  }
- video {
+.contenido img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -22,7 +22,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 
 }
-@media (max-width: 600px) { 
+/* @media (max-width: 600px) { 
     .App-header{
         background-color: pink;
     }
@@ -50,4 +50,4 @@
           
       }
   }
-  
+   */
