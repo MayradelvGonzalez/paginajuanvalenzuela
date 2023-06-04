@@ -41,31 +41,3 @@
   }
 }
 
-@media (max-width: 600px) { 
-  .App-header{
-      background-color: pink;
-  }
-}
-@media (min-width: 600px) { 
-  .App-header{
-      background-color: green;
-  }
-}
-
-@media (min-width: 768px) { 
- .App-header {
-      background-color: yellow;
-  }
-}
-
-@media (min-width: 992px) { 
-  .App-header{
-      background-color: blueviolet;
-  }
-   }
-  @media (min-width: 1200px) { 
-    .App-header{
-        background-color: rgb(196, 160, 230);
-        
-    }
-}

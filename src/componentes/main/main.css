@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .contenido{
+    width: 100%;
+    height: 60vh;
+    background-color: red;
+ }
+ video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+@media (max-width: 600px) { 
+    .App-header{
+        background-color: pink;
+    }
+  }
+  @media (min-width: 600px) { 
+    .App-header{
+        background-color: green;
+    }
+  }
+  
+  @media (min-width: 768px) { 
+   .App-header {
+        background-color: yellow;
+    }
+  }
+  
+  @media (min-width: 992px) { 
+    .App-header{
+        background-color: blueviolet;
+    }
+     }
+    @media (min-width: 1200px) { 
+      .App-header{
+          background-color: rgb(196, 160, 230);
+          
+      }
+  }
+  
