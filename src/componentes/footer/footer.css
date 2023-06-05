@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.redes{
+
+.redes {
     height: 25vh;
     display: flex;
     text-align: center;
@@ -11,15 +12,17 @@
     background-color: rgb(23, 23, 23);
     font-weight: bolder;
 }
-.redes ul{
+
+.redes ul {
     width: fit-content;
     display: flex;
     text-align: center;
     justify-content: space-around;
     flex-direction: row;
 }
-.redes ul li{
-    list-style-type:none;
+
+.redes ul li {
+    list-style-type: none;
     margin: 1em;
     display: flex;
     flex-direction: column;
@@ -27,29 +30,31 @@
     justify-content: center;
     align-items: center;
 }
-svg{
+
+svg {
     color: white;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: white;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: orange;
 }
 
-@media (max-width: 600px) { 
-    .redes{
-        padding-top: 2.3em;
+@media (max-width: 600px) {
+       .redes ul {
+        display: flex;
+        width: 100%;
+        padding-inline: 0.4em;
     }
-  }
-  /* 
-  @media (min-width: 600px) { 
-    .App-header{
-        background-color: green;
-    }
-  }
-  
+
+}
+
+
+/* 
   @media (min-width: 768px) { 
    .App-header {
         background-color: yellow;
