@@ -10,6 +10,7 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(23, 23, 23);
+    font-weight: bolder;
 }
 .redes ul{
     width: fit-content;
@@ -26,6 +27,10 @@
 }
 ul li a{
     text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: orange;
 }
 
 @media (max-width: 600px) { 

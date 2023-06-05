@@ -11,14 +11,14 @@ function Main() {
   
   const [open, setOpen] = useState(false);
   return (
-    <div className="total">
     <div className='contenido'>
       <div className="perfil">
         <img src={calamardo} alt="fotoPerfil" class="animate__fadeInLeft"/>
         </div>
-      <div className="contenidotexto" class="animate__animated animate__bounce">
+      <div className="contenidotexto">
         <h2><u> Juan Valenzuela</u></h2>
         <h3>Compositor y arreglista</h3>
+        <div>
         <Button
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
@@ -26,6 +26,7 @@ function Main() {
       >
         Ver más
       </Button>
+ 
       <Collapse in={open}>
         <div id="example-collapse-text">
         <p>Egresado del <strong>Conservatorio Provincial de música</strong></p>
@@ -33,6 +34,10 @@ function Main() {
       <p>Docente de composición y lenguaje musical</p>
         </div>
       </Collapse>
+    
+  
+
+      </div>
       </div>
 
 
@@ -40,7 +45,6 @@ function Main() {
       
  
     
-      </div>
 
 
 
