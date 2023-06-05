@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+.redes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.redes ul{
+    width: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.redes ul li{
+    list-style-type:none;
+    margin: 1em;
+   
+}
+ul li a{
+    text-decoration: none;
 }
 /* 
 @media (max-width: 600px) { 
