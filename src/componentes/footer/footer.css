@@ -23,7 +23,15 @@
 .redes ul li{
     list-style-type:none;
     margin: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
    
+}
+svg{
+    color: white;
 }
 ul li a{
     text-decoration: none;
