@@ -12,11 +12,9 @@ function header() {
        {/* <div>
        <img src={calamardo} alt="avatar" /></div> */}
         <ul>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Airways</a></li>
-            <li><a href="#">Book Tickets</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Composiciones y arreglos</a></li>
+            <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
     </div>

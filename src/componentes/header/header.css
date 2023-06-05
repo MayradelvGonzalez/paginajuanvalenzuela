@@ -24,10 +24,13 @@ nav{
   line-height: 50px;
   position: fixed;
   z-index: 100%;
+  text-align: center;
 }
 nav ul{
   float: right;
   margin-right: 30px;
+  margin-top: 0.3em;
+
 }
 nav ul li{
   list-style-type: none;
