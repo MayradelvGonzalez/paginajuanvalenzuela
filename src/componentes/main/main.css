@@ -24,8 +24,7 @@
   text-align: center;
   animation: bounce;
   animation-duration: 3s;
-object-fit: contain;
-
+  object-fit: contain;
 }
 
 .contenidotexto {
@@ -40,7 +39,8 @@ object-fit: contain;
   animation: bounce;
   animation-duration: 3s;
 }
-#example-collapse-text{
+
+#example-collapse-text {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 1em;
   font-weight: bold;
@@ -54,50 +54,53 @@ object-fit: contain;
   object-fit: cover;
 
 } */
-.contenido Button{
+.contenido Button {
   width: fit-content;
   height: 8vh;
   background-color: orange;
   color: black;
-font-weight: bolder;
+  font-weight: bolder;
 }
-.contenido Button:hover{
+
+.contenido Button:hover {
   background-color: gray;
-  
 }
+
 .overlay {
   width: 100%;
   height: 100vh;
   position: absolute;
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
-
-
 }
 
-@media (max-width: 600px) { 
-.contenido {
-  width: 100%;
-  height: 80vh;
-  background-image: url('../../assets/images/fondo.jpg');
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  text-align: center;
-  padding: 1em;
-}
-#example-collapse-text{
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 1em;
-  font-weight:lighter;
-  border-radius: 1em;
-  margin: 0 auto;
-
-}
-
+@media (max-width: 600px) {
+  .contenido {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../assets/images/fondo.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
   }
-  /* 
+  .contenido .perfil img{
+    height: 25vh;
+  }
+
+  #example-collapse-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1em;
+    font-weight: lighter;
+    border-radius: 1em;
+    margin: 0 auto;
+  }
+}
+
+/* 
   @media (min-width: 600px) { 
     .App-header{
         background-color: green;
