@@ -59,7 +59,7 @@
 }
 .contenido Button {
   width: fit-content;
-  height: 8vh;
+  height: fit-content;
   background-color: orange;
   color: black;
   font-weight: bolder;
