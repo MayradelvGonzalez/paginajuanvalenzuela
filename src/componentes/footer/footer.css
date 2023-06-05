@@ -5,9 +5,11 @@
     
 }
 .redes{
+    height: 25vh;
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: rgb(23, 23, 23);
 }
 .redes ul{
     width: fit-content;
@@ -25,12 +27,13 @@
 ul li a{
     text-decoration: none;
 }
-/* 
+
 @media (max-width: 600px) { 
-    .App-header{
-        background-color: pink;
+    .redes{
+        padding-top: 2.3em;
     }
   }
+  /* 
   @media (min-width: 600px) { 
     .App-header{
         background-color: green;

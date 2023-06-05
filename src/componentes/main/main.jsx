@@ -1,10 +1,9 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
 // import fondo from '../../assets/images/fondo.jpg';
 import calamardo from '../../assets/images/calamardo.png';
 import 'animate.css';
-import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 

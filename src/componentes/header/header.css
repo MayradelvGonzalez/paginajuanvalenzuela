@@ -43,5 +43,18 @@ nav ul li:hover{
 nav ul li a{
   text-decoration: none;
   color: #fff;
-  padding: 30px;
+  padding: 20px;
 }
+@media (max-width: 600px) { 
+  nav{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size:1.01em;
+  }
+  
+
+
+  }
+    
