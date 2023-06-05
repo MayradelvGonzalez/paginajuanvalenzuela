@@ -13,9 +13,14 @@
   flex-direction: row;
   text-align: center;
   padding: 1em;
+
 }
 
-
+.perfil{
+  display: flex;
+  flex-direction: column;
+  
+}
 
 .contenido .perfil img {
   width: 100%;
@@ -34,12 +39,22 @@
   justify-content: space-between;
   padding: 1em;
   height: fit-content;
-  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   text-align: center;
   animation: bounce;
-  animation-duration: 2s;
+  animation-duration: 3s;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+
 }
+#example-collapse-text{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.5em;
+  font-weight: bold;
+  border-radius: 1em;
+  margin: 0 auto;
+
+}
+
 
 .contenido img {
   width: 100%;
@@ -47,12 +62,19 @@
   object-fit: cover;
 
 }
+.contenido Button{
+  width: fit-content;
+  height: 10vh;
+  transition: 3s;
 
+}
 .overlay {
   width: 100%;
   height: 100vh;
   position: absolute;
   left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+
 
 }
 
