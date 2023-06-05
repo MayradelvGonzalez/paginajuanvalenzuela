@@ -88,10 +88,10 @@
     text-align: center;
     align-items: center;
     padding: 1em;
-    border-radius: 2em;
   }
   .contenido .perfil img{
     height: 25vh;
+    border-radius: 2em;
   }
 
   #example-collapse-text {
