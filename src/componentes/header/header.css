@@ -37,8 +37,10 @@ nav ul li{
   display: inline-block;
   transition: 0.7s all;
 }
-nav ul li:hover{
+nav ul li a:hover{
   background-color:orange;
+  color: black;
+  transition: 1s;
 }
 nav ul li a{
   text-decoration: none;
