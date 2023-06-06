@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
-import clarinete from '../../assets/images/clarinete.jpg';
+import fotoPerfil from '../../assets/images/fotoPerfil.jpg';
 import 'animate.css';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
@@ -13,7 +13,7 @@ function Main() {
     <div className='contenido'>
 
         <div className="perfil">
-          <img src={clarinete} alt="fotoPerfil" class="animate__animate__fadeInUp" />
+          <img src={ fotoPerfil } alt="fotoPerfil" class="animate__animate__fadeInUp" />
         </div>
         <div className="contenidotexto">
           <h2><u> Juan Valenzuela</u></h2>

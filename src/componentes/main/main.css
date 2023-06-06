@@ -10,8 +10,9 @@
   background-image: url('../../assets/images/fondo.jpg');
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  /* flex-direction: row; */
   text-align: center;
+  padding-bottom: 5em;
 }
 
 .contenidoInfo{
@@ -22,7 +23,7 @@
 }
 
 .contenido .perfil img {
-  height: 50vh;
+  height: 56vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -44,7 +45,6 @@
   height: fit-content;
   width: fit-content;
   color: black;
-  text-align: center;
   animation: fadeInUp;
   animation-duration: 3s;
   margin-bottom: 4em;
@@ -83,10 +83,9 @@
     height:fit-content;
     background-image: url('../../assets/images/fondo.jpg');
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     padding: 1em;
   }
   .contenido .perfil img{
