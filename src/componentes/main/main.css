@@ -11,8 +11,22 @@
   display: flex;
   justify-content: space-around;
   /* flex-direction: row; */
+
   text-align: center;
   padding-bottom: 5em;
+ 
+}
+@keyframes visible {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
 }
 
 .contenidoInfo{
@@ -20,6 +34,7 @@
   flex-wrap: wrap;
   height: fit-content;
   flex-direction: column;
+
 }
 
 .contenido .perfil img {
@@ -30,10 +45,11 @@
   justify-content: space-evenly;
   text-align: center;
   object-fit: contain;
-  animation: fadeInUp;
-  animation-duration: 3s;
+  animation: slideLeft;
+  animation-duration: 2s;
   border-radius: 2em;
   margin-bottom: 3em;
+
 }
 
 .contenidotexto {
@@ -45,11 +61,13 @@
   height: fit-content;
   width: fit-content;
   color: black;
-  animation: fadeInUp;
+  animation: fadeInRight;
   animation-duration: 3s;
   margin-bottom: 4em;
 
+
 }
+
 
 #example-collapse-text {
   background-color: rgba(0, 0, 0, 0.2);

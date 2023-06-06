@@ -5,15 +5,16 @@ import fotoPerfil from '../../assets/images/fotoPerfil.jpg';
 import 'animate.css';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
-import 'animate.css';
+import Embed from 'react-embed';
+import "animate.css/animate.min.css";
 
 function Main() {
   const [open, setOpen] = useState(false);
   return (
     <div className='contenido'>
-
         <div className="perfil">
-          <img src={ fotoPerfil } alt="fotoPerfil" class="animate__animate__fadeInUp" />
+          <img src={ fotoPerfil } alt="fotoPerfil" />
+          <Embed url='https://www.youtube.com/watch?v=soICQ3B2kEk' />
         </div>
         <div className="contenidotexto">
           <h2><u> Juan Valenzuela</u></h2>
@@ -37,7 +38,6 @@ function Main() {
 
     
         </div>
-        
         </div>
         
   )
