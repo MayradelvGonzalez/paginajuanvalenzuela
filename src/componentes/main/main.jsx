@@ -15,11 +15,10 @@ function Main() {
           {/* <Embed url='https://www.youtube.com/watch?v=soICQ3B2kEk' /> */}
         </div>
       <Accordion defaultActiveKey="0">
-
         <div className="contenidotexto">
           <h2><u> Juan Valenzuela</u></h2>
           <h3>Compositor, arreglista y profesor</h3>
-          <Accordion.Item eventKey="0" >
+          <Accordion.Item eventKey="1" >
             <Accordion.Header></Accordion.Header>
             <Accordion.Body>
               <div id="example-collapse-text">
@@ -29,12 +28,8 @@ function Main() {
               </div>
             </Accordion.Body>
           </Accordion.Item>
-
         </div>
-
       </Accordion>
-
-
     </div>
 
   )
