@@ -17,6 +17,7 @@ html {
   /* flex-direction: row; */
   text-align: center;
   padding-bottom: 5em;
+  padding-top: 4em;
 
 }
 
@@ -54,6 +55,9 @@ html {
 }
 .accordion-button {
   text-align: center;
+  transition: 1s;
+
+
 }
 .contenidotexto {
   display: flex;
@@ -107,7 +111,7 @@ html {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 1em;
+    padding-top: 5.5em;
   }
 .accordion{
   text-align: center;
@@ -117,6 +121,7 @@ html {
     border-radius: 1em;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
   #example-collapse-text {
@@ -126,6 +131,7 @@ html {
     font-weight: lighter;
     border-radius: 1em;
     margin: 0 auto;
+    width: fit-content;
     text-align: center;
   }
 
@@ -136,18 +142,18 @@ html {
   }
 }
 
-
+/* 
   @media (min-width: 600px) { 
     .contenido {
       width: fit-content;
       height: fit-content;
-      /* justify-content: center; */
+      justify-content: center;
       display: flex;
       flex-direction: column;
       text-align: center;
-      padding: 1em;
+      background-color: antiquewhite;
     }
-  }
+  } */
   /* 
   @media (min-width: 768px) { 
    .App-header {
