@@ -34,7 +34,7 @@ flex-direction: column;
 }
 
 .contenido .perfil img {
- height: 60vh;
+ height: 70vh;
   width: 100%;
   text-align: center;
   object-fit: contain;
@@ -115,7 +115,6 @@ flex-direction: column;
     height: fit-content;
     padding-top: 5.5em;
   }
-
   .accordion {
     text-align: center;
   }
@@ -124,8 +123,6 @@ flex-direction: column;
     height: fit-content;
     border-radius: 1em;
     align-items: center;
-
-  
     }
 
   #example-collapse-text {
@@ -138,9 +135,8 @@ flex-direction: column;
     width: fit-content;
     text-align: center;
   }
-.perfil img{
+.contenido .perfil img{
   width: 50%;
-
 }
 }
 
