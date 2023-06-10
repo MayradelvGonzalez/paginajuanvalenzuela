@@ -14,12 +14,13 @@ function Main() {
   return (
     <div className='contenido'>
         <div className="perfil">
+        <h1><u> Juan Valenzuela</u></h1>
           <img src={fotoPerfil} alt="fotoPerfil" />
         </div>
       <Accordion defaultActiveKey="0">
         <div className="contenidotexto">
-          <h2><u> Juan Valenzuela</u></h2>
-          <h3>Compositor, arreglista y profesor</h3>
+
+          <h2>Compositor, arreglista y profesor</h2>
           <Accordion.Item eventKey="1" >
             <Accordion.Header></Accordion.Header>
             <Accordion.Body>
@@ -40,8 +41,8 @@ function Main() {
            alt="Info sobre la imagen"
          />
          <Carousel.Caption>
-           <h3>First slide label</h3>
-           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+           <h3>Titulo imagen</h3>
+           <p>Algo de informacion relacionada con la imagen</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item interval={500}>
@@ -51,8 +52,8 @@ function Main() {
            alt="Inf adicional"
          />
          <Carousel.Caption>
-           <h3>Second slide label</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <h3>Titulo de la imagen</h3>
+           <p>Algo de informacion relacionada con la imagen</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
@@ -62,9 +63,9 @@ function Main() {
            alt="Info interesante"
          />
          <Carousel.Caption>
-           <h3>Third slide label</h3>
+           <h3>Titulo de la imagen</h3>
            <p>
-             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           Algo de informacion relacionada con la imagen
            </p>
          </Carousel.Caption>
        </Carousel.Item>

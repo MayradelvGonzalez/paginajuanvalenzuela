@@ -4,29 +4,25 @@
   box-sizing: border-box;
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
-.carrusel{
+.carrusel {
   padding-top: 5em;
   width: 100%;
   height: fit-content;
-  }
-  .imagenSlide{
-    object-fit: cover;
-    height: 40vh;
-  }
+}
+
+.imagenSlide {
+  object-fit: cover;
+  height: 50vh;
+}
+
 .contenido {
   max-width: 100%;
-  height: fit-content;
+  min-height: fit-content;
   background-image: url('../../assets/images/fondo.jpg');
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 5em;
-  padding-top: 4em;
-align-items: center;
+  display:flex;
+flex-direction: column;
+
+  align-items: center;
 }
 
 .contenidoInfo {
@@ -38,11 +34,8 @@ align-items: center;
 }
 
 .contenido .perfil img {
-  height: 60vh;
+ height: 60vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   text-align: center;
   object-fit: contain;
   animation: fadeInLeft;
@@ -55,38 +48,43 @@ align-items: center;
   text-align: center;
   width: fit-content;
 }
+
 .accordion-item {
   background-color: #0000;
   display: flex;
   justify-content: center;
   border: 0em;
+  margin-top: 2em;
 }
+
 .accordion-button {
   text-align: center;
-  transition: 1s;
-
-
+  transition: 2s;
 }
+
 .contenidotexto {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  padding: 1em;
   height: fit-content;
   width: fit-content;
   color: black;
   animation: fadeInRight;
   animation-duration: 3s;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
+
 #example-collapse-text {
   background-color: #2a2828;
   color: white;
   padding: 1em;
   font-weight: bold;
   border-radius: 1em;
+  padding: 2em;
+
 }
+
 .contenido Button {
   width: fit-content;
   height: fit-content;
@@ -115,19 +113,20 @@ align-items: center;
   .contenido {
     width: fit-content;
     height: fit-content;
-
     padding-top: 5.5em;
   }
-.accordion{
-  text-align: center;
-}
+
+  .accordion {
+    text-align: center;
+  }
+
   .contenido .perfil img {
     height: fit-content;
     border-radius: 1em;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
+
+  
+    }
 
   #example-collapse-text {
     background-color: rgba(0, 0, 0, 0.6);
@@ -139,12 +138,10 @@ align-items: center;
     width: fit-content;
     text-align: center;
   }
+.perfil img{
+  width: 50%;
 
-  .perfil {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+}
 }
 
 /* 
@@ -159,7 +156,7 @@ align-items: center;
       background-color: antiquewhite;
     }
   } */
-  /* 
+/* 
   @media (min-width: 768px) { 
    .App-header {
         background-color: yellow;
