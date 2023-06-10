@@ -63,6 +63,8 @@ nav ul li a{
 ul li .active{
   background-color: orange;
 }
+
+
 @media (max-width: 600px) { 
   nav{
     width: 100%;

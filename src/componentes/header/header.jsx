@@ -1,9 +1,10 @@
 import './header.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {  NavLink } from 'react-router-dom';
+// import {  NavLink } from 'react-router-dom';
 import '../informacion/info';
 import logo from '../../assets/images/logo.png';
+
 
 function header() {
   return (
@@ -20,8 +21,12 @@ function header() {
         </ul>
         </nav>
     
-
+   
+     
+    
+     
     </div>
+
   )
 }
 

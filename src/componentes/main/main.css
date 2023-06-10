@@ -4,28 +4,36 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
-
+} */
+.carrusel{
+  padding-top: 5em;
+  width: 100%;
+  height: fit-content;
+  }
+  .imagenSlide{
+    object-fit: cover;
+    height: 40vh;
+  }
 .contenido {
   max-width: 100%;
   height: fit-content;
   background-image: url('../../assets/images/fondo.jpg');
   display: flex;
   justify-content: space-around;
-  /* flex-direction: row; */
+  flex-direction: column;
   text-align: center;
   padding-bottom: 5em;
   padding-top: 4em;
-
+align-items: center;
 }
 
 .contenidoInfo {
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
-  flex-direction: row;
+  flex-direction: column;
   width: fit-content;
 }
 
@@ -107,10 +115,7 @@ html {
   .contenido {
     width: fit-content;
     height: fit-content;
-    /* justify-content: center; */
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+
     padding-top: 5.5em;
   }
 .accordion{
