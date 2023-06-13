@@ -3,25 +3,19 @@ import Footer from './componentes/footer/footer';
 import Main from './componentes/main/main';
 // import Info from './componentes/informacion/info.jsx';
 import Header from './componentes/header/header';
-// import { BrowserRouter as Router, Route, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-        {/* <Router> */}
-   
-
+    <div className="App"> 
+      <BrowserRouter> 
+      <Routes> 
         <Header />
+        <Route path='/composiciones' element={ <Footer />} />
         <Main />
-        <Footer />
-        {/* <Info /> */}
-
-        {/* <RouterProvider>
-          <Route exact path="/info" element={ <Main/> } />
-          <Route exact path="/" element={ <Header/> } />
-          <Route exact path="/contacto" element={ <Footer/> } />
-        </RouterProvider>
-      </Router> */}
+        {/* <Footer /> */}
+        </Routes>
+        </BrowserRouter> 
     </div>
 
   );
