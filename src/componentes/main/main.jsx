@@ -5,16 +5,13 @@ import fotoPerfil from '../../assets/images/fotoPerfil.jpg';
 import 'animate.css';
 import "animate.css/animate.min.css";
 import Accordion from 'react-bootstrap/Accordion';
-import Carousel from 'react-bootstrap/Carousel';
-import clarinete from '../../assets/images/clarinete.jpg';
-import clarineteIns from '../../assets/images/clarineteIns.jpg';
-import director from '../../assets/images/director.avif';
+
 
 function Main() {
   return (
     <div className='contenido'>
         <div className="perfil">
-        <h1><u> Juan Valenzuela</u></h1>
+        <h1><strong> Juan Valenzuela</strong></h1>
           <img src={fotoPerfil} alt="fotoPerfil" />
         </div>
       <Accordion defaultActiveKey="0">
@@ -33,43 +30,7 @@ function Main() {
           </Accordion.Item>
         </div>
       </Accordion>
-      <Carousel className='carrusel'>
-       <Carousel.Item interval={1000}>
-         <img
-           className="d-block w-100 imagenSlide"
-           src={ director }
-           alt="Info sobre la imagen"
-         />
-         <Carousel.Caption>
-           <h3>Titulo imagen</h3>
-           <p>Algo de informacion relacionada con la imagen</p>
-         </Carousel.Caption>
-       </Carousel.Item>
-       <Carousel.Item interval={500}>
-         <img
-           className="d-block w-100 imagenSlide"
-           src={ clarinete }
-           alt="Inf adicional"
-         />
-         <Carousel.Caption>
-           <h3>Titulo de la imagen</h3>
-           <p>Algo de informacion relacionada con la imagen</p>
-         </Carousel.Caption>
-       </Carousel.Item>
-       <Carousel.Item>
-         <img
-           className="d-block w-100 imagenSlide"
-           src={ clarineteIns }
-           alt="Info interesante"
-         />
-         <Carousel.Caption>
-           <h3>Titulo de la imagen</h3>
-           <p>
-           Algo de informacion relacionada con la imagen
-           </p>
-         </Carousel.Caption>
-       </Carousel.Item>
-     </Carousel>
+   
   </div>
   )
 }
