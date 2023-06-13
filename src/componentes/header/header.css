@@ -42,13 +42,13 @@ nav ul{
   float: right;
   margin-right: 30px;
   margin-top: 0.3em;
+
 }
 nav ul li{
   list-style-type: none;
   display: inline-block;
   transition: 0.7s all;
   font-weight: bold;
-
 }
 nav ul li a:hover{
   background-color:orange;
@@ -62,6 +62,8 @@ nav ul li a{
 }
 ul li .active{
   background-color: orange;
+border-radius: 0.5em;
+
 }
 
 
