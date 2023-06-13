@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrusel {
+    padding-top: 4em;
+    width: 100%;
+    height: fit-content;
+
+  }
+
+.info{
+    color: black;
+    background-color: rgba(177, 174, 174, 0.6);
+border-radius: 1em;
+}
+
+  .imagenSlide {
+    object-fit: cover;
+    height: 55vh;
+  }
+  .composiciones {
+    max-width: 100%;
+  min-height: fit-content;
+    background-image: url('../../assets/images/fondo.jpg');
+display: flex;
+flex-direction: column;
+  }
+.composiciones h1{
+    text-align: center;
+}
+  .composiciones p{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    margin: 1em;
+  }
