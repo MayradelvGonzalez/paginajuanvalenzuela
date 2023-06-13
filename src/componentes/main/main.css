@@ -105,6 +105,7 @@ justify-content: space-around;
     width: fit-content;
     height: fit-content;
     padding-top: 5.5em;
+    flex-direction: column;
   }
   .accordion {
     text-align: center;
@@ -126,8 +127,9 @@ justify-content: space-around;
     width: fit-content;
     text-align: center;
   }
-.contenido .perfil img{
+.contenido .perfil{
   width: 50%;
+  align-content: center;
 }
 }
 
