@@ -8,27 +8,27 @@ import director from '../../assets/images/director.avif';
 function Composiciones() {
     return (
         <div className="composiciones">
-            <h1>Composiciones y arreglos</h1>
+            <h1>Composiciones</h1>
             <Carousel className='carrusel'>
-                <Carousel.Item interval={1000}>
+                <Carousel.Item>
                     <img
                         className="d-block w-100 imagenSlide"
                         src={director}
                         alt="Info sobre la imagen"
                     />
                     <Carousel.Caption className="info">
-                        <h3>Titulo imagen</h3>
+                        <h3>Orquestal</h3>
                         <p>Algo de informacion relacionada con la imagen</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item>
                     <img
                         className="d-block w-100 imagenSlide"
                         src={clarinete}
                         alt="Inf adicional"
                     />
                     <Carousel.Caption className="info">
-                        <h3>Titulo de la imagen</h3>
+                        <h3>Cámara</h3>
                         <p>Algo de informacion relacionada con la imagen</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -39,16 +39,14 @@ function Composiciones() {
                         alt="Info interesante"
                     />
                     <Carousel.Caption className="info">
-                        <h3>Titulo de la imagen</h3>
+                        <h3>Arreglos</h3>
                         <p>
-                            Algo de informacion relacionada con la imagen
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, quam! In, perspiciatis!
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+      
         </div>
 
     )
