@@ -10,13 +10,12 @@ import Accordion from 'react-bootstrap/Accordion';
 function Main() {
   return (
     <div className='contenido'>
-        <div className="perfil">
+      <div className="perfil">
         <h1><strong> Juan Valenzuela</strong></h1>
-          <img src={fotoPerfil} alt="fotoPerfil" />
-        </div>
+        <img src={fotoPerfil} alt="fotoPerfil" />
+      </div>
       <Accordion defaultActiveKey="0">
         <div className="contenidotexto">
-
           <h2>Compositor, arreglista y profesor</h2>
           <Accordion.Item eventKey="1" >
             <Accordion.Header></Accordion.Header>
@@ -30,8 +29,7 @@ function Main() {
           </Accordion.Item>
         </div>
       </Accordion>
-   
-  </div>
+    </div>
   )
 }
 
