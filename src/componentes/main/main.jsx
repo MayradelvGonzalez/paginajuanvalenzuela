@@ -22,7 +22,7 @@ function Main() {
             <Accordion.Body>
               <div id="example-collapse-text">
                 <p>Instrumentista recibido del <strong>Conservatorio Provincial de música</strong></p>
-                <p>Clarinetista en la Orquesta de la<a href="https://fundacioncristian-zarb.jimdosite.com/" className="enlace">Fundación Cristian Zarb</a>
+                <p>Clarinetista en la Orquesta de la <a href="https://fundacioncristian-zarb.jimdosite.com/" className="enlace">Fundación Cristian Zarb</a>
                   </p>
                 <p>Profesor de armonía y lenguaje musical</p>
               </div>
