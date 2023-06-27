@@ -22,8 +22,9 @@ function Main() {
             <Accordion.Body>
               <div id="example-collapse-text">
                 <p>Egresado del <strong>Conservatorio Provincial de música</strong></p>
-                <p>Clarinetista en la Orquesta xxx</p>
-                <p>Docente de composición y lenguaje musical</p>
+                <p>Clarinetista en la Orquesta <a href="https://fundacioncristian-zarb.jimdosite.com/">Fundación Cristian Zarb</a>
+                  </p>
+                <p>Profesor de composición y lenguaje musical</p>
               </div>
             </Accordion.Body>
           </Accordion.Item>
