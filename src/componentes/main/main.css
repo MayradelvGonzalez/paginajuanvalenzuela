@@ -76,7 +76,9 @@
   padding: 2em;
 
 }
-
+.enlace{
+  color: white;
+}
 .contenido Button {
   width: fit-content;
   height: fit-content;
