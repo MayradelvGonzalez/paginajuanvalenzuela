@@ -101,7 +101,9 @@
     padding-top: 5.5em;
     flex-direction: column;
   }
-
+  .contenidotexto h2{
+    margin: 0.2em;
+  }
   .accordion {
     text-align: center;
   }
