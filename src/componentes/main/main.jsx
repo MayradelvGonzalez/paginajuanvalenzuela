@@ -21,10 +21,10 @@ function Main() {
             <Accordion.Header></Accordion.Header>
             <Accordion.Body>
               <div id="example-collapse-text">
-                <p>Egresado del <strong>Conservatorio Provincial de música</strong></p>
+                <p>Instrumentista recibido del <strong>Conservatorio Provincial de música</strong></p>
                 <p>Clarinetista en la Orquesta de la<a href="https://fundacioncristian-zarb.jimdosite.com/" className="enlace">Fundación Cristian Zarb</a>
                   </p>
-                <p>Profesor de composición y lenguaje musical</p>
+                <p>Profesor de armonía y lenguaje musical</p>
               </div>
             </Accordion.Body>
           </Accordion.Item>

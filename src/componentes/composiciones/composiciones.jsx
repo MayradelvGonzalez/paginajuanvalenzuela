@@ -18,7 +18,7 @@ function Composiciones() {
                     />
                     <Carousel.Caption className="info">
                         <h3>Orquestal</h3>
-                        <p>Que va a ir aqui, o lo dejo vacio?</p>
+                        {/* <p>Que va a ir aqui, o lo dejo vacio?</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -29,7 +29,7 @@ function Composiciones() {
                     />
                     <Carousel.Caption className="info">
                         <h3>Cámara</h3>
-                        <p>QUE QUERES QUE VAYA AQUI</p>
+                        {/* <p>QUE QUERES QUE VAYA AQUI</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,9 +40,9 @@ function Composiciones() {
                     />
                     <Carousel.Caption className="info">
                         <h3>Arreglos</h3>
-                        <p>
+                        {/* <p>
                            dale que iria aqui
-                        </p>
+                        </p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
