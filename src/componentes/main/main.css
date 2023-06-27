@@ -116,7 +116,7 @@ a .enlace{
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 1em;
-    font-weight: lighter;
+    font-weight: bold;
     border-radius: 1em;
     margin: 0 auto;
     width: fit-content;
