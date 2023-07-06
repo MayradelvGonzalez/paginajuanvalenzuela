@@ -18,7 +18,14 @@ function Composiciones() {
                     />
                     <Carousel.Caption className="info">
                         <h3>Orquestal</h3>
-                        {/* <p>Que va a ir aqui, o lo dejo vacio?</p> */}
+                        <p>Oberturas: 
+<li><ul>Homenaje a Les Luthiers</ul>
+<ul>Polonesa (CI. y orq)</ul>
+<ul>Reminiscencias de "El lago de los cisnes"(CI. y orq.)</ul>
+<ul>Fantasía sobre temas de Guillermo Tell (CI. y orq)</ul>
+</li>
+
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -29,7 +36,11 @@ function Composiciones() {
                     />
                     <Carousel.Caption className="info">
                         <h3>Cámara</h3>
-                        {/* <p>QUE QUERES QUE VAYA AQUI</p> */}
+                        <p><ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            </ul></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
